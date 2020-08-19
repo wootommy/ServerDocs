@@ -15,6 +15,7 @@ author = "nami-442"
 extensions = ["sphinx_rtd_theme", "recommonmark"]
 templates_path = ["_templates"]
 exclude_patterns = []
+master_doc = "index"
 
 
 # -- Options for HTML output -------------------------------------------------
