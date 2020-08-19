@@ -7,16 +7,24 @@ Welcome to UbuntuServerDocs's documentation!
 ============================================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Installation
+   :maxdepth: 2
+   :titlesonly:
+   :caption: Configuration
 
-   /install/01
+   /configuration/0x01
+   /configuration/0x02
+   /configuration/0x03
+   /configuration/0x04
+   /configuration/0x05
+   /configuration/0x06
+   /configuration/0x07
+   /configuration/0x08
 
 
 
-.. Indices and tables
-.. ==================
+Indices and tables
+==================
 
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
