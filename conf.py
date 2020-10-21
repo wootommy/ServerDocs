@@ -5,7 +5,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = "Ubuntu Server Notes"
+project = "NaMI Server Docs"
 copyright = "2020, nami-442"
 author = "nami-442"
 

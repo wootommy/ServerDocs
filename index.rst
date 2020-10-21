@@ -3,28 +3,51 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to UbuntuServerDocs's documentation!
-============================================
+TJ NaMI Lab Server User Documentation
+======================================
+
+欢迎查阅 NaMI 服务器使用文档。
+
+文档内容包括服务器系统配置说明、环境配置说明与使用手册。如果有任何疑问，请咨询服务器管理员。
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
-   :caption: Configuration
+   :maxdepth: 3
+   :caption: SYSTEM INFO
 
-   /configuration/0x01
-   /configuration/0x02
-   /configuration/0x03
-   /configuration/0x04
-   /configuration/0x05
-   /configuration/0x06
-   /configuration/0x07
-   /configuration/0x08
+   ./files/01/hardware_overview
+   ./files/01/commands_on_hardware
 
 
+.. toctree::
+   :maxdepth: 3
+   :caption: CONFIGURATIONS
 
-Indices and tables
-==================
+   ./files/02/0x01
+   ./files/02/0x02
+   ./files/02/0x03
+   ./files/02/0x04
+   ./files/02/0x05
+   ./files/02/0x06
+   ./files/02/0x07
+   ./files/02/0x08
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+
+.. toctree::
+   :maxdepth: 3
+   :caption: MANUALS
+
+   ./files/03/manual_conda
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: ABOUT
+
+   ./files/04/about_the_docs
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: CONTACT
+
+   ./files/05/contact
