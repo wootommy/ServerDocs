@@ -44,6 +44,7 @@ TJ NaMI Lab Server User Documentation
    :caption: ABOUT
 
    ./files/04/about_the_docs
+   ./files/04/welcome_figlet
 
 
 .. toctree::
