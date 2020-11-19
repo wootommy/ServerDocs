@@ -34,6 +34,7 @@ exclude_patterns = ["_build"]
 # -------------------------- Options for HTML output ------------------------- #
 # ref: https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html#
 
+html_static_path = ["assets"]
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
     # toc options
@@ -49,6 +50,7 @@ html_favicon = None
 html_last_updated_fmt = "%b %d, %Y"
 html_show_sphinx = False
 html_baseurl = "./files"
+html_css_files = ["./css/mine.css"]
 
 # ------------------------- Options for AutoStructify ------------------------ #
 
