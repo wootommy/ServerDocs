@@ -38,7 +38,7 @@ pip 它不香吗？实验室服务器使用 conda 的主要目的是区分不同
 
 > 可以使用`conda --version`来检测，当前账户是否可以正常使用 conda。
 
-```bash
+```sh
 # init conda env
 conda init
 ```
@@ -53,7 +53,7 @@ conda 会修改当前账户的终端配置文件，使得所有`conda`指令生�
 
 初始化完成后，我们需要在自己的账户下创建自己的 Python 环境。
 
-```bash
+```sh
 # create new python env
 conda create -n [env_name] python=3.8
 ```
@@ -73,7 +73,7 @@ conda create -n [env_name] python=3.8
 
 -   使用 pip 管理：
 
-```bash
+```sh
 # using pip
 pip list
 pip search [package_name]
@@ -84,7 +84,7 @@ pip uninstall [package_name]
 
 -   使用 conda 管理：
 
-```bash
+```sh
 # using conda
 conda list
 conda search [package_name]
@@ -106,7 +106,7 @@ conda remove [package_name]
 
 -   使用 pip：
 
-```bash
+```sh
 # output package list file
 # on your pc
 pip freeze > ~/requirements.txt
@@ -116,7 +116,7 @@ pip install -r ~/requirements.txt
 
 -   使用 conda：
 
-```bash
+```sh
 # output package list file
 # on your pc
 conda list -e > ~/requirements.txt
@@ -134,7 +134,7 @@ conda install --yes --file ~/requirements.txt
 
 -   查看当前账户拥有的环境：
 
-```bash
+```sh
 # list all envs
 conda info --envs
 conda info -e
@@ -154,7 +154,7 @@ base                     /opt/anaconda
 
 -   不同环境间的切换通过`activate`或`deactivate`进行：
 
-```bash
+```sh
 # switch to this env
 conda activate [env_name]
 # switch to default env
@@ -165,7 +165,7 @@ conda deactivate
 
 -   删除已创建的、不再需要的环境：
 
-```bash
+```sh
 # remove env by env_name
 conda remove -n [env_name] --all
 ```
@@ -174,7 +174,7 @@ conda remove -n [env_name] --all
 
 -   创建与现有环境相同配置的环境，或复制环境：
 
-```bash
+```sh
 # create one same env
 conda create -n [env_name] --clone [existed_env_name]
 ```

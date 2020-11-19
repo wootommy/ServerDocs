@@ -1,6 +1,7 @@
 img {
     border: 1px #e2e4e5 solid;
     border-radius: 4px;
+    margin: 5px auto;
 }
 
 .notranslate {

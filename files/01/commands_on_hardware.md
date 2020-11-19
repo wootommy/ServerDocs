@@ -8,7 +8,7 @@
 
 -   查看主板信息。
 
-```bash
+```sh
 > dmidecode -q -t 2
 Base Board Information
 	Manufacturer: Gigabyte Technology Co., Ltd.
@@ -20,7 +20,7 @@ Base Board Information
 
 -   查看 CPU 信息。
 
-```bash
+```sh
 > dmidecode -q -t 4
 Processor Information
 	Socket Designation: <BAD INDEX>
@@ -30,7 +30,7 @@ Processor Information
 	...
 ```
 
-```bash
+```sh
 > cat /proc/cpuinfo |grep "model name" |uniq
 model name	: Intel(R) Core(TM) i9-9980XE CPU @ 3.00GHz
 > cat /proc/cpuinfo |grep "processor" |uniq |wc -l
@@ -48,7 +48,7 @@ model name	: Intel(R) Core(TM) i9-9980XE CPU @ 3.00GHz
 ...
 ```
 
-```bash
+```sh
 > nvidia-smi
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 450.57       Driver Version: 450.57       CUDA Version: 11.0     |
@@ -77,7 +77,7 @@ model name	: Intel(R) Core(TM) i9-9980XE CPU @ 3.00GHz
 
 -   查看内存信息。
 
-```bash
+```sh
 > dmidecode -q -t 17
 Memory Device
 	Array Handle: 0x003D
@@ -97,7 +97,7 @@ Memory Device
 	Size: 16384 MB
 ```
 
-```bash
+```sh
 > free -m
               total        used        free      shared  buff/cache   available
 Mem:         128526       88124       38120         132        2281       39136
@@ -106,14 +106,14 @@ Swap:          2047        2044           3
 
 -   查看硬盘信息。
 
-```bash
+```sh
 > fdisk -l |grep "Disk /dev/nvme"
 Disk /dev/nvme0n1: 477 GiB, 512110190592 bytes, 1000215216 sectors
 > fdisk -l |grep "Disk /dev/sd"
 Disk /dev/sda: 3.7 TiB, 4000787030016 bytes, 7814037168 sectors
 ```
 
-```bash
+```sh
 > df -h |grep "/dev/nvme"
 /dev/nvme0n1p1  469G  126G  320G  29% /
 > df -h |grep "/dev/sd"
@@ -132,7 +132,7 @@ Linux 系统下可以用`dmidecode`指令获取有关硬件的信息。
 
 `dmidecode`指令输出的每条信息都具备如下格式。
 
-```bash
+```sh
 Handle 0×0002, DMI type 2, 8 bytes
 Base Board Information
 	Manufacturer: Gigabyte Technology Co., Ltd.
@@ -157,7 +157,7 @@ Base Board Information
 
 查看全部信息。
 
-```bash
+```sh
 # list all records
 dmidecode
 # list all records with less redundancy
@@ -168,7 +168,7 @@ dmidecode [-q][--quite]
 
 所有记录包含以下的记录类型与相应标识符。可以在`man dmidecode`查看到。
 
-```bash
+```sh
 The SMBIOS specification defines the following DMI types:
 
 Type   Information
@@ -222,7 +222,7 @@ Type   Information
 
 可以按记录标识符查看记录。
 
-```bash
+```sh
 # list required record
 dmidecode -t [record_name][,record_name_2][...]
 dmidecode -t [record_id][,record_id_2][...]
@@ -232,17 +232,17 @@ dmidecode -t [record_id][,record_id_2][...]
 
 -   查询系统固件信息。
 
-```bash
+```sh
 > cat /proc/version
 Linux version 5.4.0-42-generic (buildd@lgw01-amd64-023) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #46~18.04.1-Ubuntu SMP Fri Jul 10 07:21:24 UTC 2020
 ```
 
-```bash
+```sh
 > uname -a
 Linux server-442 5.4.0-42-generic #46~18.04.1-Ubuntu SMP Fri Jul 10 07:21:24 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-```bash
+```sh
 > lsb_release -a
 No LSB modules are available.
 Distributor ID:	Ubuntu

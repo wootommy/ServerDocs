@@ -12,7 +12,7 @@ markdown 语法具备简洁易用的特点，但 reStructuredText 语法具备�
 
 该文档仅介绍插件的使用与部分实际使用到的样式。更加具体的说明，参见 recommonmark 插件的[文档](https://recommonmark.readthedocs.io/en/latest/index.html)。
 
-## 使用插件
+## 使用 ASC
 
 添加、配置、使用插件，以及具体语法说明。
 

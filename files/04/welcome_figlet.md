@@ -2,7 +2,7 @@
 
 每次使用`ssh`指令登录到服务器时，终端会清除当前的输出，并显示一条亲切的欢迎语：
 
-```bash
+```sh
   ______  __   _   __      __  _______   _____
  /_  __/ / /  / | / /___ _/  |/  /  _/  / ___/___  ______   _____  _____
   / /_  / /  /  |/ / __ `/ /|_/ // /    \__ \/ _ \/ ___/ | / / _ \/ ___/
@@ -25,7 +25,7 @@
 
 简单的[使用](http://www.figlet.org/figlet-man.html)方式：
 
-```bash
+```sh
 # basic usage
 figlet [options] [messege]
 
@@ -47,7 +47,7 @@ figlet [options] [messege]
 
 参考官网的[样式](http://www.figlet.org/examples.html)页面，使用`-f`参数指定不同的样式：
 
-```bash
+```sh
 # assign font style
 ~ > figlet -f slant Nice weather today!
     _   ___                                  __  __
@@ -70,7 +70,7 @@ figlet [options] [messege]
 
 清除当前终端输出、显示欢迎语的指令储存在`\etc\profile`文件中。
 
-```bash
+```sh
 # \etc\profile
 ...
 

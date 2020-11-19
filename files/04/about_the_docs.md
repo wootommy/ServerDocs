@@ -222,8 +222,6 @@ make html
 
 这个有点像之前的 Github Pages，都是托管站。可以理解为免费的服务器，链接到 GitHub 项目，利用项目生成对应内容发布到服务器，可以实现在线访问。所有过程都是自动、免费的。联想到之前实习时候的 [CI/CD](https://www.redhat.com/zh/topics/devops/what-is-ci-cd)。
 
-### Read the Docs 管理面板
-
 -   登录到管理面板[页面](https://readthedocs.org/dashboard/)。
 
     ![](/assets/img/read_the_docs_capture.jpg "read_the_docs_capture.jpg")
@@ -235,3 +233,4 @@ make html
 -   导入成功后，项目会自动进行 build 与 release，一般在几分钟内就能够完成，可以在详情页面查看到 build 日志与相应的项目文档地址。
 
     ![](/assets/img/read_the_docs_build.jpg "read_the_docs_build.jpg")
+    ![](/assets/img/read_the_docs_build_success.jpg "read_the_docs_build_success.jpg")
