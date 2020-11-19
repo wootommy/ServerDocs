@@ -16,8 +16,10 @@ from recommonmark.transform import AutoStructify
 # ---------------------------- Project information --------------------------- #
 
 project = "NaMI Server Docs"
-copyright = "2020, nami-442"
 author = "nami-442@tommy"
+copyright = "2020, " + author
+version = "1.5.0"
+release = version
 
 # --------------------------- General configuration -------------------------- #
 
@@ -49,6 +51,7 @@ html_logo = None
 html_favicon = None
 html_last_updated_fmt = "%b %d, %Y"
 html_show_sphinx = False
+html_show_sourcelink = False
 html_baseurl = "./files"
 html_css_files = ["./css/mine.css"]
 

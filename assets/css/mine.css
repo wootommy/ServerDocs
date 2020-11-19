@@ -1,13 +1,20 @@
 img {
     border: 1px #e2e4e5 solid;
-    border-radius: 4px;
     margin: 5px auto;
 }
 
-.notranslate {
+img,
+.notranslate,
+.admonition,
+.sidebar,
+.btn {
     border-radius: 4px;
 }
 
 .admonition p {
     font-size: 15px !important;
+}
+
+.admonition-title {
+    border-radius: 4px 4px 0 0;
 }
