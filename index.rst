@@ -37,6 +37,7 @@ TJ NaMI Lab Server User Documentation
    :caption: MANUALS
 
    ./files/03/manual_conda
+   ./files/03/matlab_cli
 
 
 .. toctree::
