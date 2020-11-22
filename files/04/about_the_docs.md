@@ -206,7 +206,7 @@ make html
 
 对于该文档，对应的 Github [仓库](https://github.com/wootommy/ServerDocs)中只包括了文档代码。Read the Docs 也支持 hook 到项目的某个文件夹，因此为文档创建单独的项目不是必须的，它可以存在于某个项目其中一个文件夹中，只需要设置好对应的配置路径即可。
 
--   上传项目之前，我们蟋蟀看添加对应的 gitignore 规则，忽略无需上传的文件，例如输出文件夹`_build`。
+-   上传项目之前，我们需要添加对应的 gitignore 规则，忽略无需上传的文件，例如输出文件夹`_build`。
 
     ```sh
     # ./.gitignore
