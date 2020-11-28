@@ -22,7 +22,7 @@ TJ NaMI Lab Server User Documentation
    :maxdepth: 3
    :caption: CONFIGURATIONS
 
-   ./files/02/0x01
+   ./files/02/system_reinstall_drives
    ./files/02/0x02
    ./files/02/0x03
    ./files/02/0x04

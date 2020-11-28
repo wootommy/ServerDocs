@@ -3,6 +3,12 @@ img {
     margin: 5px auto;
 }
 
+code,
+pre,
+.notranslate {
+    font-size: 14px !important;
+}
+
 img,
 .notranslate,
 .admonition,
@@ -10,6 +16,10 @@ img,
 .btn {
     border-radius: 4px;
 }
+
+/* .admonition {
+    border: 1px #e2e4e5 solid;
+} */
 
 .admonition p {
     font-size: 15px !important;
