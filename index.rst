@@ -38,7 +38,7 @@ TJ NaMI Lab Server User Documentation
 
    ./files/03/manual_conda
    ./files/03/matlab_cli
-
+   ./files/03/cuda_and_pip
 
 .. toctree::
    :maxdepth: 3
