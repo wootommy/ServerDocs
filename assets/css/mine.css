@@ -30,9 +30,11 @@ table.docutils {
     border-radius: 4px 4px 0 0;
 }
 
+table,
 table.docutils {
     /* border: 0px !important; */
-    width: 100%;
+    max-width: 100% !important;
+    width: 100% !important;
 }
 
 table.docutils th:first-child {
