@@ -23,6 +23,7 @@ TJ NaMI Lab Server User Documentation
    :caption: CONFIGURATIONS
 
    ./files/02/system_reinstall_drives
+   ./files/02/linux_permission
    ./files/02/0x02
    ./files/02/0x03
    ./files/02/0x04

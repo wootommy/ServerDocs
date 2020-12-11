@@ -13,8 +13,9 @@ img,
 .notranslate,
 .admonition,
 .sidebar,
-.btn {
-    border-radius: 4px;
+.btn,
+table.docutils {
+    border-radius: 4px !important;
 }
 
 /* .admonition {
@@ -27,4 +28,22 @@ img,
 
 .admonition-title {
     border-radius: 4px 4px 0 0;
+}
+
+table.docutils {
+    /* border: 0px !important; */
+    width: 100%;
+}
+
+table.docutils th:first-child {
+    border-radius: 0px 0 0 0;
+}
+table.docutils th:last-child {
+    border-radius: 0 4px 0 0;
+}
+table.docutils tr:last-child td:first-child {
+    border-radius: 0 0 0 4px;
+}
+table.docutils tr:last-child td:last-child {
+    border-radius: 0 0 4px 0;
 }

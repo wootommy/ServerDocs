@@ -79,6 +79,10 @@ Filesystem created:       Wed Aug 12 11:12:42 2020
 
 唯独需要注意的，Nvidia 显卡的驱动不在可自动安装驱动的支持列表内，因此需要手动进行安装。这里列举安装 Nvidia 显卡在 Ubuntu 系统上驱动的步骤。
 
+```warning:: 无法在 SSH 远程连接模式下完成驱动的安装，请在 442 服务器本机上进行操作。
+
+```
+
 基本地，我们需要禁用系统自动适配的第三方显卡驱动，进入没有图形界面的命令行终端模式；安装必要的依赖包后，手动安装 Nvidia 显卡驱动；最后重启系统。
 
 ```note:: 禁用第三方显卡驱动后，系统不再提供图形化界面，切换到命令行终端执行后续操作。
@@ -127,6 +131,8 @@ Filesystem created:       Wed Aug 12 11:12:42 2020
 
 -   下载驱动安装程序，[链接](https://www.nvidia.com/Download/index.aspx)，下载得到 `.run` 文件，使用 bash 执行该安装文件，最后重启检查是否安装成功。
 
+    ![](../../assets/img/nvidia_version.jpg)
+
     ```sh
     # switch to terminal mode
     ctrl + alt + fn # f7 for GUI
@@ -148,7 +154,7 @@ Filesystem created:       Wed Aug 12 11:12:42 2020
 
 CUDA 自然是跑不掉的。
 
--   [下载](https://developer.nvidia.com/cuda-10.2-download-archive)CUDA 安装程序，得到 `.run` 文件，使用 bash 执行安装。
+-   下载 CUDA 安装程序，[链接](https://developer.nvidia.com/cuda-10.2-download-archive)，得到 `.run` 文件，使用 bash 执行安装。
 
     ```sh
     # install
@@ -180,7 +186,7 @@ CUDA 自然是跑不掉的。
 
 cuDNN 是一个代码级别的运行加速库。
 
--   [下载](https://developer.nvidia.com/rdp/cudnn-archive)cuDNN 压缩文件，得到 `tgz` 文件。解压缩，复制文件到相应文件夹即可完成安装。
+-   下载 cuDNN 压缩文件，[链接](https://developer.nvidia.com/rdp/cudnn-archive)，得到 `tgz` 文件。解压缩，复制文件到相应文件夹即可完成安装。
 
     ```sh
     # unpack
