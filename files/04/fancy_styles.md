@@ -1,4 +1,4 @@
-# ASC 额外样式
+# 启用 AutoStructify 额外样式
 
 关于本文档提到，文档采用了 Sphinx 文档创建框架，其标记语言为 reStructuredText。通过 recommonmark 插件，可以让文档支持 markdown 语法。
 

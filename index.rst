@@ -37,6 +37,7 @@ TJ NaMI Lab Server User Documentation
    :maxdepth: 3
    :caption: MANUALS
 
+   ./files/03/connect_ssh
    ./files/03/manual_conda
    ./files/03/matlab_cli
    ./files/03/cuda_and_pip
@@ -47,6 +48,7 @@ TJ NaMI Lab Server User Documentation
 
    ./files/04/about_the_docs
    ./files/04/fancy_styles
+   ./files/04/markdown_table
    ./files/04/welcome_figlet
 
 
