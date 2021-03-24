@@ -14,46 +14,62 @@ TJ NaMI Lab Server User Documentation
    :maxdepth: 3
    :caption: SYSTEM INFO
 
-   ./files/01/hardware_overview
-   ./files/01/commands_on_hardware
+   ./2021/system/system_hardware_overview
+   ./2021/system/system_hardware_commands
+   ./2021/system/system_hardware_setup
 
 
 .. toctree::
    :maxdepth: 3
    :caption: CONFIGURATIONS
 
-   ./files/02/system_reinstall_drives
-   ./files/02/linux_permission
-   ./files/02/0x02
-   ./files/02/0x03
-   ./files/02/0x04
-   ./files/02/0x05
-   ./files/02/0x06
-   ./files/02/0x07
-   ./files/02/0x08
-
+   ./2021/setups/setup_update_bios
+   ./2021/setups/setup_reinstall_system_drivers
+   ./2021/setups/setup_user_group
+   ./2021/setups/setup_apt
+   ./2021/setups/setup_ssh
+   ./2021/setups/setup_xrdp
+   ./2021/setups/config_conda
+   ./2021/setups/config_jupyter
+   ./2021/setups/config_matlab
+   ./2021/setups/config_mysql
 
 .. toctree::
    :maxdepth: 3
    :caption: MANUALS
 
-   ./files/03/connect_ssh
-   ./files/03/manual_conda
-   ./files/03/matlab_cli
-   ./files/03/cuda_and_pip
+   ./2021/manuals/manual_linux_permission
+   ./2021/manuals/manual_linux_process
+   ./2021/manuals/manual_using_ssh
+   ./2021/manuals/manual_conda_python
+   ./2021/manuals/manual_run_python
+   ./2021/manuals/manual_matlab
+   ./2021/manuals/manual_run_matlab
+   ./2021/manuals/manual_cuda_pip
+   ./2021/manuals/manual_jupyter
+   ./2021/manuals/manual_terminal_tools
+
+.. toctree::
+   :maxdepth: 3
+   :caption: SOURCES
+
+   ./2021/goods/source_firacode
+   ./2021/goods/source_finalshell
+   ./2021/goods/source_winscp
+   ./2021/goods/source_transmit
 
 .. toctree::
    :maxdepth: 3
    :caption: ABOUT
 
-   ./files/04/about_the_docs
-   ./files/04/fancy_styles
-   ./files/04/markdown_table
-   ./files/04/welcome_figlet
+   ./2021/about/about_the_docs
+   ./2021/about/about_fancy_styles
+   ./2021/about/about_markdown_table
+   ./2021/about/about_welcome_figlet
 
 
 .. toctree::
    :maxdepth: 3
    :caption: CONTACT
 
-   ./files/05/contact
+   ./2021/contact/contact_tommy
